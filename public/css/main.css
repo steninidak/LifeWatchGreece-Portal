@@ -1,0 +1,329 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 8, 2015, 10:00:10 AM
+    Author     : Alexandros
+*/
+
+.container {
+    margin-top: 10px;
+}
+
+.table th {
+    text-align: center;
+    background-color:#F3F3F3;
+}
+
+.table td {
+    text-align: center;
+}
+
+.login-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.login-table td {
+   padding: 5px 10px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.linkStyle {
+    color: #428bca;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    display: inline;
+}
+
+.linkStyle:hover {
+    cursor: pointer;
+    text-decoration: underline;    
+}
+
+.speed_button {
+    text-align: center;
+    padding: 10px 20px;
+    background-color:#FCFCFC;
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: inline-block;
+    min-width: 130px;
+    margin-bottom: 5px;
+}
+
+.speed_button:hover {
+    background-color: #e9e9e9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.speed_button img {
+    height: 60px;
+}
+
+.speed_text {
+    color: gray;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.speed_button2, .inactive_speed_button2 {
+    text-align: center;
+    padding: 10px 20px;
+    background-color:#FCFCFC;
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: inline-table;
+    width: 170px;
+    margin-bottom: 5px;
+}
+
+.speed_button2:hover {
+    background-color: #e9e9e9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.speed_button2 img {
+    height: 65px;
+    width: 65px;
+}
+
+.inactive_speed_button2 img {
+    height: 65px;
+    width: 65px;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.speed_text2 {
+    color: gray;
+    margin-top: 5px;
+    font-size: 12px;
+    min-height: 40px;
+}
+
+.speed_text_blue {
+    color: blue;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 12px;
+    min-height: 40px;
+}
+
+.login-form {
+    margin-top: 5px;
+}
+
+.login-form .form-control {
+    height: 26px !important;
+    padding: 3px 12px;
+    font-size: 12px;
+}
+
+.login-form label {
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.login-form button {
+    padding: 3px 10px;
+}
+
+.tool_info {
+    margin: 20px 10px;
+    padding: 8px;
+    border: 1px solid #B1D1D3;    
+    background-color: #E0EAEA;
+}
+
+.tool_info:hover {
+    cursor: pointer;
+    background-color: #AECCCE;
+}
+
+.tool_image_div {
+    float: left;
+    margin-right: 20px;
+}
+
+.tool_image {
+    height: 130px;
+    width: 130px;
+}
+    
+.tool_text {
+   display: inline-block;
+   max-width: 750px;
+   float: left;
+}
+
+.tool_status {
+    max-width: 150px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    height: 130px;
+    padding: 40px 10px 0px 10px;
+}
+
+.tool_status_signin {
+    color: #83B6BA;
+}
+
+.tool_status_develop {
+    color: red;;
+}
+
+.tool_status_free {
+    color: green;
+}
+
+.tool_status_open {
+    color: green;
+}
+
+.tool_title {
+   font-weight: bold;
+}
+
+.tool_description {
+    font-size: 13px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.announcement_title {
+    font-size: 12px;
+    font-weight: bold;
+    color: blue;
+}
+
+.announcement_body {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.announcement_date{
+    color: gray;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.hoverStyle:hover {
+    cursor: pointer;
+}
+
+.vlab_logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+span.error {
+    background-color: #F2DEDE;
+    border-color: #EBCCD1;
+    color: #A94442;
+    border-radius: 4px;
+    padding: 4px 15px;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    margin:3px 0px;
+}
+
+.textlink {
+    font-size: 16px; 
+    color: black; 
+    font-weight: bold;
+    display: inline;
+}
+
+.textlink:hover {
+    text-decoration: none;
+}
+
+.redLogCircle , .greenLogCircle {
+    border-radius: 50%;
+    /* width and height can be anything as long as they are equal */
+    width: 100px;
+    height: 100px; 	
+    text-align: center;
+    border: 1px solid gray;    
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 22px;
+    margin: 3px 0px;    
+}
+
+.redLogCircle:hover , .greenLogCircle:hover {
+    border: 1px solid black;
+}
+
+.redLogCircle {
+    background-color: #f2dede;
+    color: #800000;
+}
+
+.greenLogCircle {
+    background-color:#99cc99;
+    color: #006a00;
+}
+
+.logCircleCaption{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lastLogOn {
+    margin-top: 3px;
+}
+
+.log-table tr td:nth-child(1) {
+    width: 200px;
+}
+
+.logo_div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 5px;
+    text-align: center;
+    width: 110px;
+    font-size: 12px;
+}
+
+.logo_div img {
+    height: 56px;
+}
+
+.logo_wrapper {
+    text-align: center;
+    margin-top: 30px;
+
+}

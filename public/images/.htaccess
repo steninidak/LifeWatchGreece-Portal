@@ -1,0 +1,9 @@
+Header unset ETag
+FileETag None
+
+ExpiresActive On
+ExpiresDefault "access plus 2 days"
+
+ExpiresByType image/gif "access plus 2 days"
+ExpiresByType image/png "access plus 2 days"
+ExpiresByType image/jpg "access plus 2 days"
